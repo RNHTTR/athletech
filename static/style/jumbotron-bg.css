@@ -1,0 +1,41 @@
+body {
+  /*background-color: #f0f0f0;*/
+  color: #838383;
+}
+
+h2 {
+  /*color: #e5007a;*/
+  color: #607D8B;
+}
+
+h3 {
+  /*color: navy;*/
+  color: #2196F3;
+}
+
+.bg {
+  background: url('../images/jumbotron-bg.jpeg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 300px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+  filter: blur(2px);
+}
+
+.jumbotron {
+  height: 300px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  background:transparent;
+}
+
+.max-970 {
+  max-width: 970px;
+}
+
+/*.bg-main-color {
+  background-color: #ff0087;
+  color: white;
+}*/
